@@ -1,0 +1,3 @@
+[submodule "openwrt-shadowsocks"]
+	path = openwrt-shadowsocks
+	url = https://github.com/shadowsocks/openwrt-shadowsocks
