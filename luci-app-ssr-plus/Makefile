@@ -23,7 +23,7 @@ LUCI_TITLE:=SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 LUCI_PKGARCH:=all
 LUCI_DEPENDS:=+coreutils +coreutils-base64 +dns2socks +dnsmasq-full +ipset +ip-full \
 	+iptables-mod-tproxy +lua +libuci-lua +microsocks +pdnsd-alt +tcping \
-	+resolveip +shadowsocksr-libev-ssr-check +wget-ssl \
+	+resolveip +shadowsocksr-libev +wget-ssl \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Kcptun:kcptun-client \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_NaiveProxy:naiveproxy \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Redsocks2:redsocks2 \
@@ -33,8 +33,6 @@ LUCI_DEPENDS:=+coreutils +coreutils-base64 +dns2socks +dnsmasq-full +ipset +ip-f
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Rust:shadowsocks-rust-sslocal \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Rust_Server:shadowsocks-rust-ssserver \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR:shadowsocksr-libev-ssr-local \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR:shadowsocksr-libev-ssr-redir \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR_Server:shadowsocksr-libev-ssr-server \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Simple_Obfs:simple-obfs \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:trojan \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:ipt2socks \
